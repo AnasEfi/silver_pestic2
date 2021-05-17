@@ -21,7 +21,7 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Дана модель "TINA" и схема 4-ех разрядного регистра хранения на базе асинхронных RS-триггеров, взятая с сайта  http://shat307.ru/_els19/index.html </li>
+     <li><p align=left>Дана модель "TINA" и схема цифрового компаратора двух двоичных чисел, взятая с сайта  http://shat307.ru/_els19/index.html </li>
 <IMG SRC="rs-nor.jpg" width="400" ALIGN="center"> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
@@ -29,16 +29,15 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Надо показать, как работает 4-ех разрядный регистр хранения на базе асинхронных RS-триггеров в "TINA", т.е. показать процесс записи кода и
-	 процесс его считывания</li> <br> </li></font></ul>
+     <li><p align=left>Надо показать, как работает цифровой компаратор двух двоичных чисел в "TINA", т.е. показать процесс сравнения битов двух двоичных чисел</li> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
 Как это сделать? </font>
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему регистра.
-	 Задавая различные комбинации на вход, с помощью индикаторов (в том числе семисегментных) мы будем смотреть, как работает данная схема </li> <br> </li></font></ul>
+     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему компаратора.
+	 Задавая с помощью ключей двоичные числа, будем регистрировать индикатором равенство или неравенство двух двоичных чисел. </li> <br> </li></font></ul>
 
 <font face="comic sans ms" size=+3 color=blue><b> 
 <hr color=red>
@@ -49,7 +48,7 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Дана модель "TINA" и схема 4-ех разрядного регистра сдвига на базе D-триггеров, взятая с сайта  http://shat307.ru/_els19/index.html </li>
+     <li><p align=left>Дана модель "TINA" и схема аналогового компаратора двух аналоговых сигналов, взятая с сайта  http://shat307.ru/_els19/index.html </li>
 <IMG SRC="rs-nor.jpg" width="400" ALIGN="center"> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
@@ -57,16 +56,16 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Надо показать, как работает 4-ех разрядный регистр сдвига на базе D-триггеров в "TINA", т.е. показать процесс преобразования
-	 последовательного кода в параллельный</li> <br> </li></font></ul>
+     <li><p align=left>Надо показать, как работает аналоговый компаратор "TINA", т.е. показать процедуру сравнения двух напряжений, получить 
+графики входных и выходных напряжений, а также определить момент равенства этих сигналов на графике и на модели зажигаением индикатора </li> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
 Как это сделать? </font>
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему регистра.
-	 Будем подавать на устройство три различных 4-разрядных двоичных числа, фиксировать результат преобразования каждого числа в параллельный код и выводить на 7-ми сегментном индикаторе.
+     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему компаратора.
+	 Воспользуемся осциллографом для получения графиков входных и выходных сигналов, по которым легко определим моменты равенства сигналов.
 		</li> <br> </li></font></ul>
 <br>
 <font face="comic sans ms" size=+3 color=blue><b> 
@@ -78,7 +77,7 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Дана модель "TINA" и схема ЦАП как сумматора на базе операционного усилителя с переменным коэффициентом усиления, взятая с сайта  http://shat307.ru/_els19/index.html </li>
+     <li><p align=left>Дана модель "TINA" и схема АЦП как системы блоков, взятая с сайта  http://shat307.ru/_els19/index.html </li>
 <IMG SRC="rs-nor.jpg" width="400" ALIGN="center"> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
@@ -86,15 +85,17 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Надо показать, как работает схема ЦАП как сумматора на базе ОУ с переменным К в "TINA"</li> <br> </li></font></ul>
+     <li><p align=left>Надо показать, как работает схема АЦП как система блоков в "TINA", т.е. подробно рассмотреть работу компаратора, 
+	 ЦАП, генератора импульсов и счетчика, входящих в состав АЦП</li> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
 Как это сделать? </font>
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему ЦАП.
-	 Меняя нагрузку опорного источника, будем наблюдать изменение выходного напряжения и суммирование весовых токов.
+     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему АЦП.
+	 Будем задавать различные значения входных сигналов на компараторе и получать соответствующие этим сигналам двоичные коды.
+	 В результате построим градуировочную прямую, отражающую работу АЦП.
 		</li> <br> </li></font></ul>
 		
 <font face="comic sans ms" size=+3 color=blue><b> 
@@ -106,7 +107,7 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Дана модель "TINA" и схема ЦАП как сумматора на базе операционного усилителя с постоянным коэффициентом усиления, взятая с сайта  http://shat307.ru/_els19/index.html </li>
+     <li><p align=left>Дана модель "TINA" и схема АЦП на базе специальной микросхемы, взятая с сайта  http://shat307.ru/_els19/index.html </li>
 <IMG SRC="rs-nor.jpg" width="400" ALIGN="center"> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
@@ -114,46 +115,20 @@
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Надо показать, как работает схема ЦАП как сумматора на базе ОУ с постоянным К в "TINA"</li> <br> </li></font></ul>
+     <li><p align=left>Надо показать, как работает схема АЦП на специальной микросхеме в "TINA", т.е. процесс преобразования
+	 аналогового сигнала в цифровой код.</li> <br> </li></font></ul>
 <p align=left>
 <font face="comic sans ms" size=+3 color=red>
 Как это сделать? </font>
 <p align=left>
    <ul>
    <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему ЦАП.
-	 Устанавливая различные положения ключей (положение которых соответствует коду двоичного числа), будем наблюдать показания выходного напряжения,
-	 которые должны совпадать с суммой показаний вольтметров.
+     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему АЦП.
+	 С помощью делителя напряжения (изменяя значение сопротивления резистора) будем устанавливать различные значения входного сигнала 
+	 и получать соответсвующие им двоичные коды на индикаторах. Результат представим в виде шестнадцатеричного кода, выведенного 
+	 на семисегментном индикаторе.
 		</li> <br> </li></font></ul>
 <br>
-<font face="comic sans ms" size=+3 color=blue><b> 
-<hr color=red>
-
-<p align=left>
-Задача №5 <br><br>
-<font face="comic sans ms" size=+3 color=red>
-Что дано? </font>
-<p align=left>
-   <ul>
-   <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Дана модель "TINA" и схема ЦАП на базе специальной микросхемы, взятая с сайта  http://shat307.ru/_els19/index.html </li>
-<IMG SRC="rs-nor.jpg" width="400" ALIGN="center"> <br> </li></font></ul>
-<p align=left>
-<font face="comic sans ms" size=+3 color=red>
-Что надо найти? </font>
-<p align=left>
-   <ul>
-   <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Надо показать, как работает схема ЦАП на специальной микросхеме в "TINA"</li> <br> </li></font></ul>
-<p align=left>
-<font face="comic sans ms" size=+3 color=red>
-Как это сделать? </font>
-<p align=left>
-   <ul>
-   <font face="comic sans ms" size=+2 color=darkblue>
-     <li><p align=left>Для решения этой задачи мы имеем компьютерную модель "TINA", где и будем собирать представленную схему ЦАП.
-	 Будем изменять положения ключей и наблюдать за изменениями показаний выходного напряжения.
-		</li> <br> </li></font></ul>
 <br>
 <font face="comic sans ms" size=+3 color=blue><b> 
 <hr color=red>
